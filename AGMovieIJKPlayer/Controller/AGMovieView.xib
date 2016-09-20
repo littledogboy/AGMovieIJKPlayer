@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AGMovieView">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="tt0-eV-e4Z"/>
+                <outlet property="playView" destination="Tad-rZ-P7G" id="bg3-Ef-6bZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="ContentView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tad-rZ-P7G" userLabel="playView">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" secondItem="Tad-rZ-P7G" secondAttribute="width" multiplier="14:25" id="G07-Y9-SJM"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="G07-Y9-SJM"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="G07-Y9-SJM"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Tad-rZ-P7G" secondAttribute="trailing" id="fIU-qY-ttw"/>
+                <constraint firstItem="Tad-rZ-P7G" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="o62-iY-wFs"/>
+                <constraint firstItem="Tad-rZ-P7G" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qDn-92-bXT"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Tad-rZ-P7G"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="fIU-qY-ttw"/>
+                    <exclude reference="o62-iY-wFs"/>
+                    <exclude reference="qDn-92-bXT"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="Tad-rZ-P7G"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="fIU-qY-ttw"/>
+                    <include reference="o62-iY-wFs"/>
+                    <include reference="qDn-92-bXT"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="349" y="281"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CAA806A1D8F179A0012CF56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA80691D8F179A0012CF56 /* main.m */; };
+		6CAA806D1D8F179A0012CF56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA806C1D8F179A0012CF56 /* AppDelegate.m */; };
+		6CAA80701D8F179A0012CF56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA806F1D8F179A0012CF56 /* ViewController.m */; };
+		6CAA80731D8F179A0012CF56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CAA80711D8F179A0012CF56 /* Main.storyboard */; };
+		6CAA80751D8F179A0012CF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CAA80741D8F179A0012CF56 /* Assets.xcassets */; };
+		6CAA80781D8F179A0012CF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CAA80761D8F179A0012CF56 /* LaunchScreen.storyboard */; };
+		6CAA80831D8F179A0012CF56 /* AGMovieIJKPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA80821D8F179A0012CF56 /* AGMovieIJKPlayerTests.m */; };
+		6CAA808E1D8F179A0012CF56 /* AGMovieIJKPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA808D1D8F179A0012CF56 /* AGMovieIJKPlayerUITests.m */; };
+		6CAA809F1D8F19C80012CF56 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAA809E1D8F19C80012CF56 /* IJKMediaFramework.framework */; };
+		6CAA80A11D8F1A500012CF56 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAA80A01D8F1A500012CF56 /* AudioToolbox.framework */; };
+		6CAA80A31D8F1A5A0012CF56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAA80A21D8F1A5A0012CF56 /* AVFoundation.framework */; };
+		6CAA80A51D8F1A6E0012CF56 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAA80A41D8F1A6E0012CF56 /* CoreMedia.framework */; };
+		6CAA80A71D8F1A780012CF56 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAA80A61D8F1A780012CF56 /* CoreVideo.framework */; };
+		6CAA80A91D8F1A800012CF56 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAA80A81D8F1A800012CF56 /* libbz2.tbd */; };
+		6CAA80AB1D8F1A870012CF56 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAA80AA1D8F1A870012CF56 /* libz.tbd */; };
+		6CAA80AD1D8F1A930012CF56 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAA80AC1D8F1A930012CF56 /* MediaPlayer.framework */; };
+		6CAA80AF1D8F1A9C0012CF56 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAA80AE1D8F1A9C0012CF56 /* MobileCoreServices.framework */; };
+		6CAA80B11D8F1AA40012CF56 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAA80B01D8F1AA40012CF56 /* OpenGLES.framework */; };
+		6CAA80B31D8F1AB00012CF56 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAA80B21D8F1AB00012CF56 /* VideoToolbox.framework */; };
+		6CAA80B71D8F1C640012CF56 /* AGMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA80B51D8F1C640012CF56 /* AGMovieViewController.m */; };
+		6CAA80B81D8F1C640012CF56 /* AGMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CAA80B61D8F1C640012CF56 /* AGMovieViewController.xib */; };
+		6CAA80BB1D8F1CA90012CF56 /* AGMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA80BA1D8F1CA90012CF56 /* AGMovieView.m */; };
+		6CAA80BD1D8F1CB60012CF56 /* AGMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CAA80BC1D8F1CB60012CF56 /* AGMovieView.xib */; };
+		6CAA810D1D918A490012CF56 /* DURLXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA810A1D918A490012CF56 /* DURLXML.m */; };
+		6CAA810E1D918A490012CF56 /* VideoXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA810C1D918A490012CF56 /* VideoXML.m */; };
+		73AE2074B1BAA72452CC593B /* libPods-AGMovieIJKPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6701191C26B163FDF165CFB0 /* libPods-AGMovieIJKPlayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CAA807F1D8F179A0012CF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CAA805D1D8F179A0012CF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CAA80641D8F179A0012CF56;
+			remoteInfo = AGMovieIJKPlayer;
+		};
+		6CAA808A1D8F179A0012CF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CAA805D1D8F179A0012CF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CAA80641D8F179A0012CF56;
+			remoteInfo = AGMovieIJKPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6701191C26B163FDF165CFB0 /* libPods-AGMovieIJKPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGMovieIJKPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CAA80651D8F179A0012CF56 /* AGMovieIJKPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGMovieIJKPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CAA80691D8F179A0012CF56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CAA806B1D8F179A0012CF56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CAA806C1D8F179A0012CF56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CAA806E1D8F179A0012CF56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CAA806F1D8F179A0012CF56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CAA80721D8F179A0012CF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CAA80741D8F179A0012CF56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CAA80771D8F179A0012CF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CAA80791D8F179A0012CF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CAA807E1D8F179A0012CF56 /* AGMovieIJKPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGMovieIJKPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CAA80821D8F179A0012CF56 /* AGMovieIJKPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGMovieIJKPlayerTests.m; sourceTree = "<group>"; };
+		6CAA80841D8F179A0012CF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CAA80891D8F179A0012CF56 /* AGMovieIJKPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGMovieIJKPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CAA808D1D8F179A0012CF56 /* AGMovieIJKPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGMovieIJKPlayerUITests.m; sourceTree = "<group>"; };
+		6CAA808F1D8F179A0012CF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CAA809E1D8F19C80012CF56 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		6CAA80A01D8F1A500012CF56 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6CAA80A21D8F1A5A0012CF56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6CAA80A41D8F1A6E0012CF56 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6CAA80A61D8F1A780012CF56 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6CAA80A81D8F1A800012CF56 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		6CAA80AA1D8F1A870012CF56 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6CAA80AC1D8F1A930012CF56 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6CAA80AE1D8F1A9C0012CF56 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6CAA80B01D8F1AA40012CF56 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6CAA80B21D8F1AB00012CF56 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		6CAA80B41D8F1C640012CF56 /* AGMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMovieViewController.h; sourceTree = "<group>"; };
+		6CAA80B51D8F1C640012CF56 /* AGMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMovieViewController.m; sourceTree = "<group>"; };
+		6CAA80B61D8F1C640012CF56 /* AGMovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGMovieViewController.xib; sourceTree = "<group>"; };
+		6CAA80B91D8F1CA90012CF56 /* AGMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGMovieView.h; path = AGMovieIJKPlayer/Controller/AGMovieView.h; sourceTree = SOURCE_ROOT; };
+		6CAA80BA1D8F1CA90012CF56 /* AGMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGMovieView.m; path = AGMovieIJKPlayer/Controller/AGMovieView.m; sourceTree = SOURCE_ROOT; };
+		6CAA80BC1D8F1CB60012CF56 /* AGMovieView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AGMovieView.xib; path = AGMovieIJKPlayer/Controller/AGMovieView.xib; sourceTree = SOURCE_ROOT; };
+		6CAA81091D918A490012CF56 /* DURLXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DURLXML.h; sourceTree = "<group>"; };
+		6CAA810A1D918A490012CF56 /* DURLXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DURLXML.m; sourceTree = "<group>"; };
+		6CAA810B1D918A490012CF56 /* VideoXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoXML.h; sourceTree = "<group>"; };
+		6CAA810C1D918A490012CF56 /* VideoXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoXML.m; sourceTree = "<group>"; };
+		884186BAAB4754EBA250DA56 /* Pods-AGMovieIJKPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGMovieIJKPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGMovieIJKPlayer/Pods-AGMovieIJKPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		FC4E09A7DB43AF9C70D8660B /* Pods-AGMovieIJKPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGMovieIJKPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGMovieIJKPlayer/Pods-AGMovieIJKPlayer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CAA80621D8F179A0012CF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAA80B31D8F1AB00012CF56 /* VideoToolbox.framework in Frameworks */,
+				6CAA80B11D8F1AA40012CF56 /* OpenGLES.framework in Frameworks */,
+				6CAA80AF1D8F1A9C0012CF56 /* MobileCoreServices.framework in Frameworks */,
+				6CAA80AD1D8F1A930012CF56 /* MediaPlayer.framework in Frameworks */,
+				6CAA80AB1D8F1A870012CF56 /* libz.tbd in Frameworks */,
+				6CAA80A91D8F1A800012CF56 /* libbz2.tbd in Frameworks */,
+				6CAA80A71D8F1A780012CF56 /* CoreVideo.framework in Frameworks */,
+				6CAA80A51D8F1A6E0012CF56 /* CoreMedia.framework in Frameworks */,
+				6CAA80A31D8F1A5A0012CF56 /* AVFoundation.framework in Frameworks */,
+				6CAA80A11D8F1A500012CF56 /* AudioToolbox.framework in Frameworks */,
+				6CAA809F1D8F19C80012CF56 /* IJKMediaFramework.framework in Frameworks */,
+				73AE2074B1BAA72452CC593B /* libPods-AGMovieIJKPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAA807B1D8F179A0012CF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAA80861D8F179A0012CF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E5C5A4E742EA30AE81E127 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				884186BAAB4754EBA250DA56 /* Pods-AGMovieIJKPlayer.debug.xcconfig */,
+				FC4E09A7DB43AF9C70D8660B /* Pods-AGMovieIJKPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CAA805C1D8F179A0012CF56 = {
+			isa = PBXGroup;
+			children = (
+				6CAA809D1D8F19C80012CF56 /* Frameworks */,
+				6CAA80671D8F179A0012CF56 /* AGMovieIJKPlayer */,
+				6CAA80811D8F179A0012CF56 /* AGMovieIJKPlayerTests */,
+				6CAA808C1D8F179A0012CF56 /* AGMovieIJKPlayerUITests */,
+				6CAA80661D8F179A0012CF56 /* Products */,
+				01E5C5A4E742EA30AE81E127 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6CAA80661D8F179A0012CF56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CAA80651D8F179A0012CF56 /* AGMovieIJKPlayer.app */,
+				6CAA807E1D8F179A0012CF56 /* AGMovieIJKPlayerTests.xctest */,
+				6CAA80891D8F179A0012CF56 /* AGMovieIJKPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CAA80671D8F179A0012CF56 /* AGMovieIJKPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6CAA806B1D8F179A0012CF56 /* AppDelegate.h */,
+				6CAA806C1D8F179A0012CF56 /* AppDelegate.m */,
+				6CAA806E1D8F179A0012CF56 /* ViewController.h */,
+				6CAA806F1D8F179A0012CF56 /* ViewController.m */,
+				6CAA80711D8F179A0012CF56 /* Main.storyboard */,
+				6CAA81081D918A490012CF56 /* Model */,
+				6CAA809C1D8F198A0012CF56 /* View */,
+				6CAA809B1D8F19820012CF56 /* Controller */,
+				6CAA80741D8F179A0012CF56 /* Assets.xcassets */,
+				6CAA80761D8F179A0012CF56 /* LaunchScreen.storyboard */,
+				6CAA80791D8F179A0012CF56 /* Info.plist */,
+				6CAA80681D8F179A0012CF56 /* Supporting Files */,
+			);
+			path = AGMovieIJKPlayer;
+			sourceTree = "<group>";
+		};
+		6CAA80681D8F179A0012CF56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CAA80691D8F179A0012CF56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CAA80811D8F179A0012CF56 /* AGMovieIJKPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CAA80821D8F179A0012CF56 /* AGMovieIJKPlayerTests.m */,
+				6CAA80841D8F179A0012CF56 /* Info.plist */,
+			);
+			path = AGMovieIJKPlayerTests;
+			sourceTree = "<group>";
+		};
+		6CAA808C1D8F179A0012CF56 /* AGMovieIJKPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CAA808D1D8F179A0012CF56 /* AGMovieIJKPlayerUITests.m */,
+				6CAA808F1D8F179A0012CF56 /* Info.plist */,
+			);
+			path = AGMovieIJKPlayerUITests;
+			sourceTree = "<group>";
+		};
+		6CAA809B1D8F19820012CF56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CAA80B41D8F1C640012CF56 /* AGMovieViewController.h */,
+				6CAA80B51D8F1C640012CF56 /* AGMovieViewController.m */,
+				6CAA80B61D8F1C640012CF56 /* AGMovieViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CAA809C1D8F198A0012CF56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CAA80B91D8F1CA90012CF56 /* AGMovieView.h */,
+				6CAA80BA1D8F1CA90012CF56 /* AGMovieView.m */,
+				6CAA80BC1D8F1CB60012CF56 /* AGMovieView.xib */,
+			);
+			name = View;
+			path = Controller/View;
+			sourceTree = "<group>";
+		};
+		6CAA809D1D8F19C80012CF56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CAA80B21D8F1AB00012CF56 /* VideoToolbox.framework */,
+				6CAA80B01D8F1AA40012CF56 /* OpenGLES.framework */,
+				6CAA80AE1D8F1A9C0012CF56 /* MobileCoreServices.framework */,
+				6CAA80AC1D8F1A930012CF56 /* MediaPlayer.framework */,
+				6CAA80AA1D8F1A870012CF56 /* libz.tbd */,
+				6CAA80A81D8F1A800012CF56 /* libbz2.tbd */,
+				6CAA80A61D8F1A780012CF56 /* CoreVideo.framework */,
+				6CAA80A41D8F1A6E0012CF56 /* CoreMedia.framework */,
+				6CAA80A21D8F1A5A0012CF56 /* AVFoundation.framework */,
+				6CAA80A01D8F1A500012CF56 /* AudioToolbox.framework */,
+				6CAA809E1D8F19C80012CF56 /* IJKMediaFramework.framework */,
+				6701191C26B163FDF165CFB0 /* libPods-AGMovieIJKPlayer.a */,
+			);
+			name = Frameworks;
+			path = AGMovieIJKPlayer/Frameworks;
+			sourceTree = "<group>";
+		};
+		6CAA81081D918A490012CF56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CAA81091D918A490012CF56 /* DURLXML.h */,
+				6CAA810A1D918A490012CF56 /* DURLXML.m */,
+				6CAA810B1D918A490012CF56 /* VideoXML.h */,
+				6CAA810C1D918A490012CF56 /* VideoXML.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CAA80641D8F179A0012CF56 /* AGMovieIJKPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CAA80921D8F179A0012CF56 /* Build configuration list for PBXNativeTarget "AGMovieIJKPlayer" */;
+			buildPhases = (
+				0700F98030F64F422871F823 /* [CP] Check Pods Manifest.lock */,
+				6CAA80611D8F179A0012CF56 /* Sources */,
+				6CAA80621D8F179A0012CF56 /* Frameworks */,
+				6CAA80631D8F179A0012CF56 /* Resources */,
+				06F96173377B82C953742721 /* [CP] Embed Pods Frameworks */,
+				F8CDC2A01853251D47894DB1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGMovieIJKPlayer;
+			productName = AGMovieIJKPlayer;
+			productReference = 6CAA80651D8F179A0012CF56 /* AGMovieIJKPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CAA807D1D8F179A0012CF56 /* AGMovieIJKPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CAA80951D8F179A0012CF56 /* Build configuration list for PBXNativeTarget "AGMovieIJKPlayerTests" */;
+			buildPhases = (
+				6CAA807A1D8F179A0012CF56 /* Sources */,
+				6CAA807B1D8F179A0012CF56 /* Frameworks */,
+				6CAA807C1D8F179A0012CF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CAA80801D8F179A0012CF56 /* PBXTargetDependency */,
+			);
+			name = AGMovieIJKPlayerTests;
+			productName = AGMovieIJKPlayerTests;
+			productReference = 6CAA807E1D8F179A0012CF56 /* AGMovieIJKPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CAA80881D8F179A0012CF56 /* AGMovieIJKPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CAA80981D8F179A0012CF56 /* Build configuration list for PBXNativeTarget "AGMovieIJKPlayerUITests" */;
+			buildPhases = (
+				6CAA80851D8F179A0012CF56 /* Sources */,
+				6CAA80861D8F179A0012CF56 /* Frameworks */,
+				6CAA80871D8F179A0012CF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CAA808B1D8F179A0012CF56 /* PBXTargetDependency */,
+			);
+			name = AGMovieIJKPlayerUITests;
+			productName = AGMovieIJKPlayerUITests;
+			productReference = 6CAA80891D8F179A0012CF56 /* AGMovieIJKPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CAA805D1D8F179A0012CF56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = littledogboy;
+				TargetAttributes = {
+					6CAA80641D8F179A0012CF56 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6CAA807D1D8F179A0012CF56 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6CAA80641D8F179A0012CF56;
+					};
+					6CAA80881D8F179A0012CF56 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6CAA80641D8F179A0012CF56;
+					};
+				};
+			};
+			buildConfigurationList = 6CAA80601D8F179A0012CF56 /* Build configuration list for PBXProject "AGMovieIJKPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CAA805C1D8F179A0012CF56;
+			productRefGroup = 6CAA80661D8F179A0012CF56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CAA80641D8F179A0012CF56 /* AGMovieIJKPlayer */,
+				6CAA807D1D8F179A0012CF56 /* AGMovieIJKPlayerTests */,
+				6CAA80881D8F179A0012CF56 /* AGMovieIJKPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CAA80631D8F179A0012CF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAA80781D8F179A0012CF56 /* LaunchScreen.storyboard in Resources */,
+				6CAA80BD1D8F1CB60012CF56 /* AGMovieView.xib in Resources */,
+				6CAA80B81D8F1C640012CF56 /* AGMovieViewController.xib in Resources */,
+				6CAA80751D8F179A0012CF56 /* Assets.xcassets in Resources */,
+				6CAA80731D8F179A0012CF56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAA807C1D8F179A0012CF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAA80871D8F179A0012CF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F96173377B82C953742721 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGMovieIJKPlayer/Pods-AGMovieIJKPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0700F98030F64F422871F823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8CDC2A01853251D47894DB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGMovieIJKPlayer/Pods-AGMovieIJKPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CAA80611D8F179A0012CF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAA810D1D918A490012CF56 /* DURLXML.m in Sources */,
+				6CAA80701D8F179A0012CF56 /* ViewController.m in Sources */,
+				6CAA810E1D918A490012CF56 /* VideoXML.m in Sources */,
+				6CAA80B71D8F1C640012CF56 /* AGMovieViewController.m in Sources */,
+				6CAA806D1D8F179A0012CF56 /* AppDelegate.m in Sources */,
+				6CAA806A1D8F179A0012CF56 /* main.m in Sources */,
+				6CAA80BB1D8F1CA90012CF56 /* AGMovieView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAA807A1D8F179A0012CF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAA80831D8F179A0012CF56 /* AGMovieIJKPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAA80851D8F179A0012CF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAA808E1D8F179A0012CF56 /* AGMovieIJKPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CAA80801D8F179A0012CF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CAA80641D8F179A0012CF56 /* AGMovieIJKPlayer */;
+			targetProxy = 6CAA807F1D8F179A0012CF56 /* PBXContainerItemProxy */;
+		};
+		6CAA808B1D8F179A0012CF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CAA80641D8F179A0012CF56 /* AGMovieIJKPlayer */;
+			targetProxy = 6CAA808A1D8F179A0012CF56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CAA80711D8F179A0012CF56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CAA80721D8F179A0012CF56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CAA80761D8F179A0012CF56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CAA80771D8F179A0012CF56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CAA80901D8F179A0012CF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CAA80911D8F179A0012CF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CAA80931D8F179A0012CF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884186BAAB4754EBA250DA56 /* Pods-AGMovieIJKPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AGMovieIJKPlayer/Frameworks",
+				);
+				INFOPLIST_FILE = AGMovieIJKPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGMovieIJKPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		6CAA80941D8F179A0012CF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4E09A7DB43AF9C70D8660B /* Pods-AGMovieIJKPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AGMovieIJKPlayer/Frameworks",
+				);
+				INFOPLIST_FILE = AGMovieIJKPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGMovieIJKPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		6CAA80961D8F179A0012CF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AGMovieIJKPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGMovieIJKPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGMovieIJKPlayer.app/AGMovieIJKPlayer";
+			};
+			name = Debug;
+		};
+		6CAA80971D8F179A0012CF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AGMovieIJKPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGMovieIJKPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGMovieIJKPlayer.app/AGMovieIJKPlayer";
+			};
+			name = Release;
+		};
+		6CAA80991D8F179A0012CF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AGMovieIJKPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGMovieIJKPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AGMovieIJKPlayer;
+			};
+			name = Debug;
+		};
+		6CAA809A1D8F179A0012CF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AGMovieIJKPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGMovieIJKPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AGMovieIJKPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CAA80601D8F179A0012CF56 /* Build configuration list for PBXProject "AGMovieIJKPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAA80901D8F179A0012CF56 /* Debug */,
+				6CAA80911D8F179A0012CF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CAA80921D8F179A0012CF56 /* Build configuration list for PBXNativeTarget "AGMovieIJKPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAA80931D8F179A0012CF56 /* Debug */,
+				6CAA80941D8F179A0012CF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CAA80951D8F179A0012CF56 /* Build configuration list for PBXNativeTarget "AGMovieIJKPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAA80961D8F179A0012CF56 /* Debug */,
+				6CAA80971D8F179A0012CF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CAA80981D8F179A0012CF56 /* Build configuration list for PBXNativeTarget "AGMovieIJKPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAA80991D8F179A0012CF56 /* Debug */,
+				6CAA809A1D8F179A0012CF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CAA805D1D8F179A0012CF56 /* Project object */;
+}
