@@ -46,6 +46,7 @@
     NSURLSessionDataTask *dataTask = [session dataTaskWithURL:h5URL completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:(NSJSONReadingMutableContainers) error:nil];
         self.cidString = dic[@"cid"];
+        self.h5URLString = dic[@"src"];
         NSArray *subStrings = [_cidString componentsSeparatedByString:@"/"];
         NSString *lastStirng = [subStrings lastObject];
         self.cid = [lastStirng substringToIndex:lastStirng.length - 4];
@@ -123,8 +124,11 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             self.agMovieView.movieURLArray = self.movieURLArray;
         });
-    } else {
-        NSLog(@"解析xml出错");
+    } else { // - - appKey 无效。用 h5视频源代替
+        NSMutableArray *array = [NSMutableArray arrayWithObject:[NSURL URLWithString:self.h5URLString]];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            self.agMovieView.movieURLArray = array;
+        });
     }
 }
 

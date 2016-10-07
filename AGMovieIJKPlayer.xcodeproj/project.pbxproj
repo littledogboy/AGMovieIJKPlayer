@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C523DC41D9653F60021CA36 /* NSString+AGMovieTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C523DC31D9653F60021CA36 /* NSString+AGMovieTime.m */; };
 		6CAA806A1D8F179A0012CF56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA80691D8F179A0012CF56 /* main.m */; };
 		6CAA806D1D8F179A0012CF56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA806C1D8F179A0012CF56 /* AppDelegate.m */; };
 		6CAA80701D8F179A0012CF56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA806F1D8F179A0012CF56 /* ViewController.m */; };
@@ -32,6 +33,17 @@
 		6CAA80BD1D8F1CB60012CF56 /* AGMovieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CAA80BC1D8F1CB60012CF56 /* AGMovieView.xib */; };
 		6CAA810D1D918A490012CF56 /* DURLXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA810A1D918A490012CF56 /* DURLXML.m */; };
 		6CAA810E1D918A490012CF56 /* VideoXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA810C1D918A490012CF56 /* VideoXML.m */; };
+		6CEDEBD41D92FB6E00B244C7 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDEBC91D92FB6E00B244C7 /* back@2x.png */; };
+		6CEDEBD51D92FB6E00B244C7 /* icmpv_thumb_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDEBCA1D92FB6E00B244C7 /* icmpv_thumb_light@2x.png */; };
+		6CEDEBD61D92FB6E00B244C7 /* Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDEBCB1D92FB6E00B244C7 /* Play@2x.png */; };
+		6CEDEBD71D92FB6E00B244C7 /* player_pause_iphone_fullscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDEBCC1D92FB6E00B244C7 /* player_pause_iphone_fullscreen@3x.png */; };
+		6CEDEBD81D92FB6E00B244C7 /* player_pause_iphone_window@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDEBCD1D92FB6E00B244C7 /* player_pause_iphone_window@3x.png */; };
+		6CEDEBD91D92FB6E00B244C7 /* player_start_iphone_fullscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDEBCE1D92FB6E00B244C7 /* player_start_iphone_fullscreen@3x.png */; };
+		6CEDEBDA1D92FB6E00B244C7 /* player_start_iphone_window@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDEBCF1D92FB6E00B244C7 /* player_start_iphone_window@3x.png */; };
+		6CEDEBDB1D92FB6E00B244C7 /* report@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDEBD01D92FB6E00B244C7 /* report@2x.png */; };
+		6CEDEBDC1D92FB6E00B244C7 /* Rotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDEBD11D92FB6E00B244C7 /* Rotation@2x.png */; };
+		6CEDEBDD1D92FB6E00B244C7 /* Slider_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDEBD21D92FB6E00B244C7 /* Slider_thumb@2x.png */; };
+		6CEDEBDE1D92FB6E00B244C7 /* Stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDEBD31D92FB6E00B244C7 /* Stop@2x.png */; };
 		73AE2074B1BAA72452CC593B /* libPods-AGMovieIJKPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6701191C26B163FDF165CFB0 /* libPods-AGMovieIJKPlayer.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +66,8 @@
 
 /* Begin PBXFileReference section */
 		6701191C26B163FDF165CFB0 /* libPods-AGMovieIJKPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGMovieIJKPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C523DC21D9653F60021CA36 /* NSString+AGMovieTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AGMovieTime.h"; sourceTree = "<group>"; };
+		6C523DC31D9653F60021CA36 /* NSString+AGMovieTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AGMovieTime.m"; sourceTree = "<group>"; };
 		6CAA80651D8F179A0012CF56 /* AGMovieIJKPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGMovieIJKPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CAA80691D8F179A0012CF56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CAA806B1D8F179A0012CF56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +105,17 @@
 		6CAA810A1D918A490012CF56 /* DURLXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DURLXML.m; sourceTree = "<group>"; };
 		6CAA810B1D918A490012CF56 /* VideoXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoXML.h; sourceTree = "<group>"; };
 		6CAA810C1D918A490012CF56 /* VideoXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoXML.m; sourceTree = "<group>"; };
+		6CEDEBC91D92FB6E00B244C7 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		6CEDEBCA1D92FB6E00B244C7 /* icmpv_thumb_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icmpv_thumb_light@2x.png"; sourceTree = "<group>"; };
+		6CEDEBCB1D92FB6E00B244C7 /* Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play@2x.png"; sourceTree = "<group>"; };
+		6CEDEBCC1D92FB6E00B244C7 /* player_pause_iphone_fullscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_pause_iphone_fullscreen@3x.png"; sourceTree = "<group>"; };
+		6CEDEBCD1D92FB6E00B244C7 /* player_pause_iphone_window@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_pause_iphone_window@3x.png"; sourceTree = "<group>"; };
+		6CEDEBCE1D92FB6E00B244C7 /* player_start_iphone_fullscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_start_iphone_fullscreen@3x.png"; sourceTree = "<group>"; };
+		6CEDEBCF1D92FB6E00B244C7 /* player_start_iphone_window@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player_start_iphone_window@3x.png"; sourceTree = "<group>"; };
+		6CEDEBD01D92FB6E00B244C7 /* report@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "report@2x.png"; sourceTree = "<group>"; };
+		6CEDEBD11D92FB6E00B244C7 /* Rotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rotation@2x.png"; sourceTree = "<group>"; };
+		6CEDEBD21D92FB6E00B244C7 /* Slider_thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slider_thumb@2x.png"; sourceTree = "<group>"; };
+		6CEDEBD31D92FB6E00B244C7 /* Stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stop@2x.png"; sourceTree = "<group>"; };
 		884186BAAB4754EBA250DA56 /* Pods-AGMovieIJKPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGMovieIJKPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGMovieIJKPlayer/Pods-AGMovieIJKPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		FC4E09A7DB43AF9C70D8660B /* Pods-AGMovieIJKPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGMovieIJKPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGMovieIJKPlayer/Pods-AGMovieIJKPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +166,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6C523DC11D9653C40021CA36 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6C523DC21D9653F60021CA36 /* NSString+AGMovieTime.h */,
+				6C523DC31D9653F60021CA36 /* NSString+AGMovieTime.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		6CAA805C1D8F179A0012CF56 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +205,8 @@
 				6CAA806E1D8F179A0012CF56 /* ViewController.h */,
 				6CAA806F1D8F179A0012CF56 /* ViewController.m */,
 				6CAA80711D8F179A0012CF56 /* Main.storyboard */,
+				6C523DC11D9653C40021CA36 /* Common */,
+				6CEDEBC81D92FB6E00B244C7 /* Images */,
 				6CAA81081D918A490012CF56 /* Model */,
 				6CAA809C1D8F198A0012CF56 /* View */,
 				6CAA809B1D8F19820012CF56 /* Controller */,
@@ -258,6 +294,24 @@
 				6CAA810C1D918A490012CF56 /* VideoXML.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6CEDEBC81D92FB6E00B244C7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6CEDEBC91D92FB6E00B244C7 /* back@2x.png */,
+				6CEDEBCA1D92FB6E00B244C7 /* icmpv_thumb_light@2x.png */,
+				6CEDEBCB1D92FB6E00B244C7 /* Play@2x.png */,
+				6CEDEBCC1D92FB6E00B244C7 /* player_pause_iphone_fullscreen@3x.png */,
+				6CEDEBCD1D92FB6E00B244C7 /* player_pause_iphone_window@3x.png */,
+				6CEDEBCE1D92FB6E00B244C7 /* player_start_iphone_fullscreen@3x.png */,
+				6CEDEBCF1D92FB6E00B244C7 /* player_start_iphone_window@3x.png */,
+				6CEDEBD01D92FB6E00B244C7 /* report@2x.png */,
+				6CEDEBD11D92FB6E00B244C7 /* Rotation@2x.png */,
+				6CEDEBD21D92FB6E00B244C7 /* Slider_thumb@2x.png */,
+				6CEDEBD31D92FB6E00B244C7 /* Stop@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,11 +420,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CEDEBD51D92FB6E00B244C7 /* icmpv_thumb_light@2x.png in Resources */,
 				6CAA80781D8F179A0012CF56 /* LaunchScreen.storyboard in Resources */,
 				6CAA80BD1D8F1CB60012CF56 /* AGMovieView.xib in Resources */,
+				6CEDEBDB1D92FB6E00B244C7 /* report@2x.png in Resources */,
+				6CEDEBD91D92FB6E00B244C7 /* player_start_iphone_fullscreen@3x.png in Resources */,
 				6CAA80B81D8F1C640012CF56 /* AGMovieViewController.xib in Resources */,
+				6CEDEBD81D92FB6E00B244C7 /* player_pause_iphone_window@3x.png in Resources */,
+				6CEDEBDA1D92FB6E00B244C7 /* player_start_iphone_window@3x.png in Resources */,
+				6CEDEBDC1D92FB6E00B244C7 /* Rotation@2x.png in Resources */,
 				6CAA80751D8F179A0012CF56 /* Assets.xcassets in Resources */,
+				6CEDEBDD1D92FB6E00B244C7 /* Slider_thumb@2x.png in Resources */,
 				6CAA80731D8F179A0012CF56 /* Main.storyboard in Resources */,
+				6CEDEBD61D92FB6E00B244C7 /* Play@2x.png in Resources */,
+				6CEDEBD71D92FB6E00B244C7 /* player_pause_iphone_fullscreen@3x.png in Resources */,
+				6CEDEBDE1D92FB6E00B244C7 /* Stop@2x.png in Resources */,
+				6CEDEBD41D92FB6E00B244C7 /* back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +511,7 @@
 				6CAA810D1D918A490012CF56 /* DURLXML.m in Sources */,
 				6CAA80701D8F179A0012CF56 /* ViewController.m in Sources */,
 				6CAA810E1D918A490012CF56 /* VideoXML.m in Sources */,
+				6C523DC41D9653F60021CA36 /* NSString+AGMovieTime.m in Sources */,
 				6CAA80B71D8F1C640012CF56 /* AGMovieViewController.m in Sources */,
 				6CAA806D1D8F179A0012CF56 /* AppDelegate.m in Sources */,
 				6CAA806A1D8F179A0012CF56 /* main.m in Sources */,

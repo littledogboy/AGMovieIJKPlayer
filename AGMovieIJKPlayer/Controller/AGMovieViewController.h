@@ -14,6 +14,7 @@
 @property (nonatomic, copy) NSString *aid;
 @property (nonatomic, copy) NSString *cid;
 @property (nonatomic, copy) NSString *cidString;
+@property (nonatomic, copy) NSString *h5URLString;
 @property (strong, nonatomic) IBOutlet AGMovieView *agMovieView;
 
 
